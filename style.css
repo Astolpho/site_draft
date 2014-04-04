@@ -5,11 +5,15 @@ small,form,input,ul,li,ol,label{    /* resetting our page elements */
     font-family:Arial, Helvetica, sans-serif;
 }
 
-body.title_page{   /* styling the body */
+body.main_background{   /* styling the body */
     margin-top:20px;
     color:#51555C;
     font-size:13px;
     background-color:#123456;
+}
+
+.container{
+    background-color:#ffffff;
 }
 
 .clear{ /* the clearfix hack */

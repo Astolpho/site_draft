@@ -6,7 +6,7 @@
     <script type="text/javascript" src="script.js"></script>
 
 </head>
-
+<body class="main_background">
 <div id="rounded">
 
     <img src="img/top_bg.gif"/><!-- image with rounded left and right cornors -->
@@ -35,3 +35,5 @@
     <img src="img/bottom_bg.gif" /><!--the bottom two rounded cornors of the page -->
 
 </div>
+</body>
+</html>
