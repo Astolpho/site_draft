@@ -12,10 +12,10 @@
     <img src="img/top_bg.gif"/><!-- image with rounded left and right cornors -->
     <div id="main" class="container"><!-- our main container element -->
 
-    <h1> Erik Ashley</h1> <!-- titles-->
-    <h2> Video Game Audio</h2>
+    <h1 class="title_name"> Erik Ashley</h1> <!-- titles-->
+    <h2 class="title_occupation"> Video Game Audio</h2>
 
-    <ul id="navigation"> <!-- the navigation menu-->
+    <ul class="navigation" id="navigation"> <!-- the navigation menu-->
         <li class="blue_button"><a href="#page1">Artist Statement </a></li><!-- a few navigation buttons-->
         <li class="blue_button"><a href="#page2">Demo Reel</a></li>
         <li class="blue_button"><a href="#page3">Biography</a></li>

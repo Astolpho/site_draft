@@ -31,7 +31,7 @@ a:hover{    /* the hover effect */
     margin:20px auto;   /*center it on the page*/
 }
 
-.container{ /* this one contains our navigation, titles, and fetched content */
+main.container{ /* this one contains our navigation, titles, and fetched content */
     background-color:#FFFFFF;
     padding:10px 20px 20px 20px;
 }
