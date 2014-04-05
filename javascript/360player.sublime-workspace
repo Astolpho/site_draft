@@ -1,0 +1,713 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hash",
+				"hash-window"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"print",
+				"print_first_and_last"
+			],
+			[
+				"print_",
+				"print_last_word"
+			],
+			[
+				"word",
+				"words"
+			],
+			[
+				"prin",
+				"print_first_word"
+			],
+			[
+				"sort_",
+				"sort_words"
+			],
+			[
+				"start",
+				"start_point"
+			],
+			[
+				"current",
+				"current_line"
+			],
+			[
+				"amoun",
+				"amount_of_crackers"
+			],
+			[
+				"amou",
+				"amount_of_cheese"
+			],
+			[
+				"cheese",
+				"cheese_and_crackers"
+			],
+			[
+				"puts_two",
+				"puts_two_again"
+			],
+			[
+				"sublime",
+				"sublime-theme"
+			],
+			[
+				"cars",
+				"cars_not_driven"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/wamp/www/site_draft/index.php",
+			"settings":
+			{
+				"buffer_size": 2170,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/site_draft/footer.php",
+			"settings":
+			{
+				"buffer_size": 1184,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "360player.js",
+			"settings":
+			{
+				"buffer_size": 46592,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/site_draft/style.css",
+			"settings":
+			{
+				"buffer_size": 11730,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "soundmanager2.js",
+			"settings":
+			{
+				"buffer_size": 151328,
+				"line_ending": "Windows",
+				"name": "/** @license"
+			}
+		},
+		{
+			"file": "/C/Users/ERIKAS~1/AppData/Local/Temp/Rar$DRa0.023/berniecode-animator-0df9a5d8e4cb/demos.html",
+			"settings":
+			{
+				"buffer_size": 28297,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/site_draft/index.js",
+			"settings":
+			{
+				"buffer_size": 795,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "demo_reel.js",
+			"settings":
+			{
+				"buffer_size": 411,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 795,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "animator.js",
+			"settings":
+			{
+				"buffer_size": 21691,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"selected_items":
+		[
+			[
+				":sav",
+				"File: Save All"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				":save",
+				"File: Save All"
+			],
+			[
+				":sa",
+				"File: Save All"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":php",
+				"Set Syntax: PHP"
+			],
+			[
+				":s",
+				":w - Save"
+			],
+			[
+				":install",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				":$ - EOF"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 132.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Erik Ashley/Downloads/slideout-footer/index.html",
+		"/C/wamp/www/site_draft/demo_reel.php",
+		"/C/wamp/www/site_draft/javascript/360player.js",
+		"/C/wamp/www/site_draft/demo_reel.js",
+		"/C/wamp/www/site_draft/artist_statement.php",
+		"/C/wamp/www/site_draft/biography.php",
+		"/C/wamp/www/site_draft/load_page.php",
+		"/C/Users/Erik Ashley/Downloads/demo/demo.html",
+		"/C/Users/Erik Ashley/Downloads/demo/pages/page_1.html",
+		"/C/Users/Erik Ashley/coding/site_draft/javascript/index.js",
+		"/C/Users/Erik Ashley/coding/site_draft/credits.php",
+		"/C/Users/Erik Ashley/coding/site_draft/.php",
+		"/C/Users/Erik Ashley/coding/site_draft/base.css",
+		"/C/Users/Erik Ashley/coding/site_draft/script.js",
+		"/C/Users/Erik Ashley/Downloads/slideout-footer/assets/css/style.css",
+		"/C/Users/Erik Ashley/coding/site/base.css",
+		"/C/Users/Erik Ashley/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Erik Ashley/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Erik Ashley/OpenGl coding/Ruby/irb_practice.rb",
+		"/C/Users/Erik Ashley/OpenGl coding/Ruby/ex25.rb",
+		"/C/Users/Erik Ashley/Downloads/ch6cont.cpp",
+		"/C/Users/Erik Ashley/Downloads/1301Ch6.cpp"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"threeSixty",
+			"        {",
+			"element",
+			"200",
+			"input",
+			"<",
+			"input",
+			"a",
+			"blue_button",
+			"el",
+			"print_a_line",
+			"puts \"your first variable is : #{first}\"",
+			"puts",
+			"puts \"your first variable is : #{first}\"\n",
+			"as",
+			"vintage"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/wamp/www/site_draft/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								747,
+								747
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/wamp/www/site_draft/footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1084,
+								1084
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "360player.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/C/wamp/www/site_draft/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8316,
+								8316
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4252.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "soundmanager2.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 151328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1385,
+								1385
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/** @license",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/ERIKAS~1/AppData/Local/Temp/Rar$DRa0.023/berniecode-animator-0df9a5d8e4cb/demos.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15238.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/wamp/www/site_draft/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								795,
+								795
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "demo_reel.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								411,
+								411
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "index.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "animator.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.572057022538,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 257.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "360player.js",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"dem",
+				"javascript\\demo_reel.js"
+			],
+			[
+				"style",
+				"style.css"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

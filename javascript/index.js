@@ -4,9 +4,6 @@ $(document).ready(function()
 
 	$('.blue_button').click(function (e)
 	{
-
-		console.log(this.hash);
-		console.log(this);
 		checkURL(this.hash);
 	});
 

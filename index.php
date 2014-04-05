@@ -3,8 +3,15 @@
 <head>
     <?php header('Access-Control-Allow-Origin: *');?>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/360player.css" />
+    <link rel="stylesheet" type="text/css" href="css/360player-visualization.css" />
+    <link rel="stylesheet" type="text/css" href="css/flashblock.css" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
     <script type="text/javascript" src="javascript/index.js"></script>
+    <script type="text/javascript" src="javascript/demo_reel.js"></script>
+    <script type="text/javascript" src="javascript/animator.js"></script>
+    <script type="text/javascript" src="javascript/soundmanager2.js"></script>
+    <script type="text/javascript" src="javascript/360player.js"></script>
 
 </head>
 <body>
