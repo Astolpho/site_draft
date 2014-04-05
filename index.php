@@ -30,12 +30,12 @@
             
             </div>
         </div>
-    <div id="tab_contents">
+        <div id="tab_contents"  >
+        </div>
+        <div class="clear"></div> 
     </div>
-    <div class="clear"></div> 
 </div>
+<? php include("footer.php");?>);
 </body>
-<div id="footer">
-</div>
 
 </html>
