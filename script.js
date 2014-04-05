@@ -1,36 +1,26 @@
 $(document).ready(function()
 {
-	//checkURL(); 
+	checkURL(); 
 
-	$('ul li a').click(function (e)
+	$('.blue_button').click(function (e)
 	{
-		//checkURL(this.hash);
+
+		console.log(this.hash);
+		console.log(this);
+		checkURL(this.hash);
 	});
 
-	//setInterval("checkURL()",250);
-	console.log("hello");
-	footer();
+	setInterval("checkURL()",250);
 });
 
-var lasturl="";
 
-function footer()
-{
-	document.getElementById("footer").php='<object type="text/php" data="footer.php" ></object>';
-}
-
-function loadpage()
-{
-	$("#" + this.id).load(this.id + ".php");
-}
-/*
 function checkURL(hash)
 {
 	if(!hash) hash-window.location.hash;
 
 	if(hash != lasturl)
 	{
-		lasturl=hash;
+		var lasturl=hash;
 		loadPage(hash);
 	}
 }
@@ -57,4 +47,3 @@ function loadPage(url) //the function that loads pages via AJAX
 			}
 		}); 
 }
-*/

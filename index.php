@@ -17,17 +17,17 @@
             <h2 class="title_occupation"> Video Game Audio</h2>
 
             <ul class="navigation" id="navigation"> <!-- the navigation menu-->
-                <li class="blue_button"><a href="javascript: loadpage(this);" id="artist_statement">Artist Statement </a></li><!-- a few navigation buttons-->
-                <li class="blue_button"><a href="javascript: loadpage(this);" id="demo_reel">Demo Reel</a></li>
-                <li class="blue_button"><a href="javascript: loadpage(this);" id="biography">Biography</a></li>
-                <li class="blue_button"><a href="javascript: loadpage(this);" id="credits">Credits</a></li>
+                <li class="blue_button"><a href="#artist_statement" id="artist_statement">Artist Statement </a></li><!-- a few navigation buttons-->
+                <li class="blue_button"><a href="#page2" id="demo_reel">Demo Reel</a></li>
+                <li class="blue_button"><a href="#biography" id="biography">Biography</a></li>
+                <li class="blue_button"><a href="#page4" id="credits">Credits</a></li>
                 <li class="blue_button"><img id="loading" src="img/ajax_load.gif" alt="loading" /></li><!-- rotating loading gif-->
             </ul>
             <a href="#main"></a>
             <div class="clear"></div><!-- the above links are floated we have to use the cleardix hack-->
 
-            <div id="pagecontent"><!-- this is where our AJAX-ed content goes-->
-            
+            <div id="pageContent"><!-- this is where our AJAX-ed content goes-->
+            <meta charset="utf-8"/>Pushing Game Audio Forward
             </div>
         </div>
         <div id="tab_contents"  >
