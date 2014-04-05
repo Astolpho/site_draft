@@ -10,17 +10,24 @@ body{
     color:#51555C;
     font-size:13px;
     background-color:#123456;
+    position:relative;
+    z-index:1;
 }
 .main_background{   /* styling the body */
-    border-radius:20px;
     margin-top:20px;
     color:#51555C;
     font-size:13px;
     background-color:#123456;
+    position:relative;
+    z-index:2;
 }
 
 .container{
+    border-radius:20px;
     background-color:#ffffff;
+    position:relative;
+    z-index:2;
+    padding:20px;
 }
 
 .clear{ /* the clearfix hack */
@@ -45,12 +52,16 @@ a:hover{    /* the hover effect */
 main.container{ /* this one contains our navigation, titles, and fetched content */
     background-color:#FFFFFF;
     padding:10px 20px 20px 20px;
+    position:relative;
+    z-index:1;
 }
 
 h1.title_name{ /* the heading */
     font-size:28px;
     font-weight:bold;
     font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+    position:relative;
+    z-index:3;
 }
 
 h2.title_occupation{ /* the subheading */
@@ -58,10 +69,14 @@ h2.title_occupation{ /* the subheading */
     font-size:20px;
 
     color:#999999;
+    position:relative;
+    z-index:3;
 }
 
 ul.navigation{ /* the unordered list used in the navigation */
     margin:30px 0px;
+    position:relative;
+    z-index:2;
 }
 
 li.blue_button{ /* we float the li-s, which contain our navigation links - we later apply clearfix */
@@ -69,6 +84,8 @@ li.blue_button{ /* we float the li-s, which contain our navigation links - we la
     display:block;
     float:left;
     width:150px;
+    position:relative;
+    z-index:2;
 }
 
 li.blue_button a,li a:visited{  /* the navigation links */
@@ -103,4 +120,166 @@ li.blue_button a:hover{
 
 #loading{   /* hiding the rotating gif graphic by default */
     visibility:hidden;
+}
+
+footer{
+    height: 245px;
+    color:#ccc;
+    font-size:12px;
+
+    position:relative;
+    z-index:-2;
+
+    background-color:#31353a;
+
+    background-image:-webkit-linear-gradient(top, #31353a, #2f3337);
+    background-image:-moz-linear-gradient(top, #31353a, #2f3337);
+    background-image:linear-gradient(top, #31353a, #2f3337);
+}
+footer > ul.footer_links{
+    width:960px;
+    position:fixed;
+    left:50%;
+    bottom:0;
+    margin-left:-480px;
+    padding-bottom: 60px;
+    z-index:-1;
+}
+footer > ul > li{
+    width:25%;
+    float:left;
+}
+
+footer ul{
+    list-style: none;
+}
+
+/* The links */
+
+footer > ul > li ul li{
+    margin-left:43px;
+    text-transform: uppercase;
+    font-weight:bold;
+    line-height:1.8;
+}
+
+footer > ul > li ul li a{
+    text-decoration: none !important;
+    color:#7d8691 !important;
+}
+
+footer > ul > li ul li a:hover{
+    color:#ddd !important;
+}
+footer a.logo{
+    color: #e4e4e4 !important;
+    text-decoration: none !important;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    margin-left: 16px;
+    display: inline-block;
+    margin-top: 7px;
+}
+
+footer a.logo i{
+    font-style: normal;
+    position: absolute;
+    width: 60px;
+    display: block;
+    left: 48px;
+    top: 18px;
+    font-size: 12px;
+    color: #999;
+}
+
+footer a.logo:before{
+    content: '';
+    display: inline-block;
+    background: url('../img/sprite.png') no-repeat -19px -70px;
+    width: 48px;
+    height: 37px;
+    vertical-align: text-top;
+}
+ooter p{
+    width: 90%;
+    margin-right: 10%;
+    padding: 9px 0;
+    line-height: 18px;
+    background-color: #058cc7;
+    font-weight: bold;
+    font-size: 14px;
+    color:#fff;
+    text-transform: uppercase;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+    opacity:0.9;
+    cursor:default;
+
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+
+footer > ul > li:hover p{
+    opacity:1;
+}
+
+footer p:before{
+    content: '';
+    display: inline-block;
+    background: url('../img/sprite.png') no-repeat;
+    width: 16px;
+    height: 18px;
+    margin: 0 12px 0 15px;
+    vertical-align: text-bottom;
+}
+footer p.home{
+    background-color: #0096d6;
+
+    background-image:-webkit-linear-gradient(top, #0096d6, #008ac6);
+    background-image:-moz-linear-gradient(top, #0096d6, #008ac6);
+    background-image:linear-gradient(top, #0096d6, #008ac6);
+}
+
+footer p.home:before{
+    background-position: 0 -110px;
+}
+
+footer p.services{
+    background-color: #00b274;
+
+    background-image:-webkit-linear-gradient(top, #00b274, #00a46b);
+    background-image:-moz-linear-gradient(top, #00b274, #00a46b);
+    background-image:linear-gradient(top, #00b274, #00a46b);
+}
+
+footer p.services:before{
+    background-position: 0 -129px;
+}
+
+footer p.reachus{
+    background-color: #d75ba2;
+
+    background-image:-webkit-linear-gradient(top, #d75ba2, #c75496);
+    background-image:-moz-linear-gradient(top, #d75ba2, #c75496);
+    background-image:linear-gradient(top, #d75ba2, #c75496);
+}
+
+footer p.reachus:before{
+    background-position: 0 -89px;
+}
+
+footer p.clients{
+    background-color: #e9ac40;
+
+    background-image:-webkit-linear-gradient(top, #e9ac40, #d89f3b);
+    background-image:-moz-linear-gradient(top, #e9ac40, #d89f3b);
+    background-image:linear-gradient(top, #e9ac40, #d89f3b);
+}
+
+footer p.clients:before{
+    background-position: 0 -69px;
 }
