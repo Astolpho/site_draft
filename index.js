@@ -16,7 +16,7 @@ $(document).ready(function()
 
 function checkURL(hash)
 {
-	if(!hash) hash-window.location.hash;
+	if(!hash) hash=window.location.hash;
 
 	if(hash != lasturl)
 	{
@@ -27,7 +27,7 @@ function checkURL(hash)
 
 function loadPage(url) //the function that loads pages via AJAX
 {
-	url=url.replace('#page',''); // strips the page of the hash and leaves only the page number 
+	url=url.replace('#',''); // strips the page of the hash and leaves only the page number 
 
 	$('loading').css('visibility','visible');
 
@@ -42,7 +42,7 @@ function loadPage(url) //the function that loads pages via AJAX
 				if(parseInt(msg)!=0)
 				{
 					$('#pageContent').html(msg);
-					$('loading'),css('visibility','hidden');
+					$('#loading').css('visibility','hidden');
 				}
 			}
 		}); 
