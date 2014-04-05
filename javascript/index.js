@@ -10,7 +10,6 @@ $(document).ready(function()
 	setInterval("checkURL()",250);
 });
 
-
 function checkURL(hash)
 {
 	if(!hash) hash=window.location.hash;
