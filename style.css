@@ -5,7 +5,14 @@ small,form,input,ul,li,ol,label{    /* resetting our page elements */
     font-family:Arial, Helvetica, sans-serif;
 }
 
-body.main_background{   /* styling the body */
+body{
+    margin-top:20px;
+    color:#51555C;
+    font-size:13px;
+    background-color:#123456;
+}
+.main_background{   /* styling the body */
+    border-radius:20px;
     margin-top:20px;
     color:#51555C;
     font-size:13px;
