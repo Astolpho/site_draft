@@ -1,8 +1,4 @@
-</div>
-    <div id="title_page">
-        <h1>A Step Closer to Audio Design and Implementation </h1>
-    </div>
-    <footer>
+<footer>
         <ul class="footer_links">
             <li>
                 <p class="home">Home</p>
@@ -35,4 +31,3 @@
             </li>
         </ul>
     </footer>
-</div>
