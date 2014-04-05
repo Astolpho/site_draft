@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <? php header('Access-Control-Allow-Origin: *');?>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
@@ -16,10 +17,10 @@
             <h2 class="title_occupation"> Video Game Audio</h2>
 
             <ul class="navigation" id="navigation"> <!-- the navigation menu-->
-                <li class="blue_button"><a href="#page1">Artist Statement </a></li><!-- a few navigation buttons-->
-                <li class="blue_button"><a href="#page2">Demo Reel</a></li>
-                <li class="blue_button"><a href="#page3">Biography</a></li>
-                <li class="blue_button"><a href="#page4">Credits</a></li>
+                <li class="blue_button"><a href="javascript: loadpage(this);" id="artist_statement">Artist Statement </a></li><!-- a few navigation buttons-->
+                <li class="blue_button"><a href="javascript: loadpage(this);" id="demo_reel">Demo Reel</a></li>
+                <li class="blue_button"><a href="javascript: loadpage(this);" id="biography">Biography</a></li>
+                <li class="blue_button"><a href="javascript: loadpage(this);" id="credits">Credits</a></li>
                 <li class="blue_button"><img id="loading" src="img/ajax_load.gif" alt="loading" /></li><!-- rotating loading gif-->
             </ul>
             <a href="#main"></a>
@@ -29,8 +30,12 @@
             
             </div>
         </div>
-
+    <div id="tab_contents">
+    </div>
     <div class="clear"></div> 
 </div>
 </body>
+<div id="footer">
+</div>
+
 </html>

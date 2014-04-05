@@ -1,4 +1,5 @@
-<footer>
+<footer >
+        <? php header('Access-Control-Allow-Origin: *');?>
         <ul class="footer_links">
             <li>
                 <p class="home">Home</p>

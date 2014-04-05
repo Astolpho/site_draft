@@ -1,17 +1,29 @@
 $(document).ready(function()
 {
-	checkURL(); 
+	//checkURL(); 
 
 	$('ul li a').click(function (e)
 	{
-		checkURL(this.hash);
+		//checkURL(this.hash);
 	});
 
-	setInterval("checkURL()",250);
+	//setInterval("checkURL()",250);
+	console.log("hello");
+	footer();
 });
 
 var lasturl="";
 
+function footer()
+{
+	document.getElementById("footer").php='<object type="text/php" data="footer.php" ></object>';
+}
+
+function loadpage()
+{
+	$("#" + this.id).load(this.id + ".php");
+}
+/*
 function checkURL(hash)
 {
 	if(!hash) hash-window.location.hash;
@@ -45,3 +57,4 @@ function loadPage(url) //the function that loads pages via AJAX
 			}
 		}); 
 }
+*/
