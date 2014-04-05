@@ -7,9 +7,9 @@
     <link rel="stylesheet" type="text/css" href="css/360player-visualization.css" />
     <link rel="stylesheet" type="text/css" href="css/flashblock.css" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript/animator.js"></script>
     <script type="text/javascript" src="javascript/index.js"></script>
     <script type="text/javascript" src="javascript/demo_reel.js"></script>
-    <script type="text/javascript" src="javascript/animator.js"></script>
     <script type="text/javascript" src="javascript/soundmanager2.js"></script>
     <script type="text/javascript" src="javascript/360player.js"></script>
 
@@ -24,10 +24,10 @@
             <h2 class="title_occupation"> Video Game Audio</h2>
 
             <ul class="navigation" id="navigation"> <!-- the navigation menu-->
-                <li class="blue_button"><a href="#artist_statement" id="artist_statement">Artist Statement </a></li><!-- a few navigation buttons-->
-                <li class="blue_button"><a href="#demo_reel" id="demo_reel">Demo Reel</a></li>
-                <li class="blue_button"><a href="#biography" id="biography">Biography</a></li>
-                <li class="blue_button"><a href="#credits" id="credits">Credits</a></li>
+                <li class="blue_button"><span onclick="loadPage(this);" id="artist_statement">Artist Statement </span></li><!-- a few navigation buttons-->
+                <li class="blue_button"><span onclick="loadPage(this);" id="demo_reel">Demo Reel</span></li>
+                <li class="blue_button"><span onclick="loadPage(this);" id="biography">Biography</span></li>
+                <li class="blue_button"><span onclick="loadPage(this);" id="credits">Credits</span></li>
                 <li> <img id="loading" src="img/ajax_load.gif" alt="loading" /></li><!-- rotating loading gif-->
             </ul>
             <a href="#main"></a>

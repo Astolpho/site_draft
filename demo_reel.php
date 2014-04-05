@@ -1,5 +1,6 @@
 <head>
     <?php header('Access-Control-Allow-Origin: *');?>
+    
    
 <script type="text/javascript">
 
@@ -76,10 +77,10 @@ pre.block {
 		<!-- here are the MP3 links, which are decorated with the 360 canvas element/UI etc. -->
 	 	<h2 style="margin-top:1em"></h2>
 		<div class="sm2-inline-list"> <!-- remove this class to have one item per line -->
-			<div class="ui360 ui360-vis"><a href="music/battle.wav">Crash 1</a></div>
-			<div class="ui360 ui360-vis"><a href="music/battle.wav">Crash 5</a></div>
-			<div class="ui360 ui360-vis"><a href="music/battle.wav">Crash 6</a></div>
-			<div class="ui360 ui360-vis"><a href="music/battle.wav">China 1</a></div>
+			<div class="ui360 ui360-vis"><a href="music/battle.mp3">Crash 1</a></div>
+			<div class="ui360 ui360-vis"><a href="music/battle.mp3">Crash 5</a></div>
+			<div class="ui360 ui360-vis"><a href="music/battle.mp3">Crash 6</a></div>
+			<div class="ui360 ui360-vis"><a href="music/battle.mp3">China 1</a></div>
 	    </div>
 	 	<h2 style="clear:both;padding-top:1em"></h2>
 	</div>

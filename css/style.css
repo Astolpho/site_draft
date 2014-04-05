@@ -88,7 +88,7 @@ li.blue_button{ /* we float the li-s, which contain our navigation links - we la
     z-index:2;
 }
 
-li.blue_button a,li a:visited{  /* the navigation links */
+li.blue_button span,li span:visited{  /* the navigation links */
     padding:5px 10px;
     text-align:center;
     background-color:#000033;
@@ -101,7 +101,7 @@ li.blue_button a,li a:visited{  /* the navigation links */
 
 }
 
-li.blue_button a:hover{
+li.blue_button span:hover{
     background-color:#666666;
     text-decoration:none;
 }

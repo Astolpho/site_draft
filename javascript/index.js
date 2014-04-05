@@ -1,30 +1,11 @@
 $(document).ready(function()
 {
-	checkURL(); 
-
-	$('.blue_button').click(function (e)
-	{
-		checkURL(this.hash);
-	});
-
-	setInterval("checkURL()",250);
 });
 
-function checkURL(hash)
+function loadPage(element) //the function that loads pages via AJAX
 {
-	if(!hash) hash=window.location.hash;
-
-	if(hash != lasturl)
-	{
-		var lasturl=hash;
-		loadPage(hash);
-	}
-}
-
-function loadPage(url) //the function that loads pages via AJAX
-{
-	url=url.replace('#',''); // strips the page of the hash and leaves only the page number 
-
+	console.log(this)
+	var url = element.id;
 	$('loading').css('visibility','visible');
 
 	$.ajax(
