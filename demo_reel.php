@@ -1,70 +1,70 @@
 <head>
-	    <?php header('Access-Control-Allow-Origin: *');?>
+    <?php header('Access-Control-Allow-Origin: *');?>
 
-	   
-	<script type="text/javascript">
-	soundManager.setup({
-	  // path to directory containing SM2 SWF
-	  url: '/soundManager/swf/'
-	});
+   
+<script type="text/javascript">
+soundManager.setup({
+  // path to directory containing SM2 SWF
+  url: '/soundManager/swf/'
+});
 
-	threeSixtyPlayer.config.scaleFont = (navigator.userAgent.match(/msie/i)?false:true);
-	threeSixtyPlayer.config.showHMSTime = true;
+threeSixtyPlayer.config.scaleFont = (navigator.userAgent.match(/msie/i)?false:true);
+threeSixtyPlayer.config.showHMSTime = true;
 
-	// enable some spectrum stuffs
+// enable some spectrum stuffs
 
-	threeSixtyPlayer.config.useWaveformData = true;
-	threeSixtyPlayer.config.useEQData = true;
+threeSixtyPlayer.config.useWaveformData = true;
+threeSixtyPlayer.config.useEQData = true;
 
-	// enable this in SM2 as well, as needed
+// enable this in SM2 as well, as needed
 
-	if (threeSixtyPlayer.config.useWaveformData) {
-	  soundManager.flash9Options.useWaveformData = true;
-	}
-	if (threeSixtyPlayer.config.useEQData) {
-	  soundManager.flash9Options.useEQData = true;
-	}
-	if (threeSixtyPlayer.config.usePeakData) {
-	  soundManager.flash9Options.usePeakData = true;
-	}
+if (threeSixtyPlayer.config.useWaveformData) {
+  soundManager.flash9Options.useWaveformData = true;
+}
+if (threeSixtyPlayer.config.useEQData) {
+  soundManager.flash9Options.useEQData = true;
+}
+if (threeSixtyPlayer.config.usePeakData) {
+  soundManager.flash9Options.usePeakData = true;
+}
 
-	if (threeSixtyPlayer.config.useWaveformData || threeSixtyPlayer.flash9Options.useEQData || threeSixtyPlayer.flash9Options.usePeakData) {
-	  // even if HTML5 supports MP3, prefer flash so the visualization features can be used.
-	  soundManager.preferFlash = true;
-	}
+if (threeSixtyPlayer.config.useWaveformData || threeSixtyPlayer.flash9Options.useEQData || threeSixtyPlayer.flash9Options.usePeakData) {
+  // even if HTML5 supports MP3, prefer flash so the visualization features can be used.
+  soundManager.preferFlash = true;
+}
 
-	// favicon is expensive CPU-wise, but can be used.
-	if (window.location.href.match(/hifi/i)) {
-	  threeSixtyPlayer.config.useFavIcon = true;
-	}
+// favicon is expensive CPU-wise, but can be used.
+if (window.location.href.match(/hifi/i)) {
+  threeSixtyPlayer.config.useFavIcon = true;
+}
 
-	if (window.location.href.match(/html5/i)) {
-	  // for testing IE 9, etc.
-	  soundManager.useHTML5Audio = true;
-	}
+if (window.location.href.match(/html5/i)) {
+  // for testing IE 9, etc.
+  soundManager.useHTML5Audio = true;
+}
 
-	</script>
+</script>
 
-	<style type="text/css">
+<style type="text/css">
 
-	#left h2 {
-	 padding-top:0px;
-	 margin-bottom:0.25em;
-	 color:#666;
-	}
+#left h2 {
+ padding-top:0px;
+ margin-bottom:0.25em;
+ color:#666;
+}
 
-	pre.block {
-	 margin-top:0.5em;
-	}
+pre.block {
+ margin-top:0.5em;
+}
 
-	/* special case */
+/* special case */
 
-	#left {
-	 width:auto;
-	 max-width:100%;
-	}
+#left {
+ width:auto;
+ max-width:100%;
+}
 
-	</style>
+</style>
 </head>
 <body>
 <div id="left">
