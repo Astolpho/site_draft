@@ -40,6 +40,5 @@ function show_tab(element)
 	$('#demo_reel_div').hide();
 	$('#biography_div').hide();
 	$('#credits_div').hide();
-	soundManager.finish();
 	$("#" + element.id + "_div").show();
 }
