@@ -2,13 +2,18 @@ $(document).ready(function()
 {
 });
 
-function loadPage(element) //the function that loads pages via AJAX
+function show_demo_tab()
 {
-	console.log(this)
+	$('#demo_reel_div').show();
+}
+function load_page(element) //the function that loads pages via AJAX
+{
+	$('#demo_reel_div').hide();
 	var url = element.id;
 	$('loading').css('visibility','visible');
 
-	$.ajax(
+
+		$.ajax(
 		{
 			type: "POST",
 			url: "load_page.php",
