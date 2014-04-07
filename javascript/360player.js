@@ -528,7 +528,7 @@ function ThreeSixtyPlayer() {
 
       // minimize ze font
       if (thisSound._360data.scaleFont && thisSound._360data.fontSizeMax !== null) {
-        thisSound._360data.oTiming.style.fontSize = '1px';
+        thisSound._360data.oTiming.style.fontSize = '18px';
       }
 
       // set up ze animation
