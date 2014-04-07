@@ -101,13 +101,13 @@
             <h1 class="title_name"> Erik Ashley</h1> <!-- titles-->
             <h2 class="title_occupation"> Video Game Audio</h2>
 
-            <ul class="navigation" id="navigation"> <!-- the navigation menu-->
-                <li class="blue_button"><span onclick="show_tab(this)" id="artist_statement">Artist Statement </span></li><!-- a few navigation buttons-->
-                <li class="blue_button"><span onclick="show_tab(this)" id="demo_reel">Demo Reel</span></li>
-                <li class="blue_button"><span onclick="show_tab(this)" id="biography">Biography</span></li>
-                <li class="blue_button"><span onclick="show_tab(this)" id="credits">Credits</span></li>
-                <li> <img id="loading" src="img/ajax_load.gif" alt="loading" /></li><!-- rotating loading gif-->
-            </ul>
+            <div style="list-style-type: none" class="navigation" id="navigation"> <!-- the navigation menu-->
+                <div class="blue button" onclick="show_tab(this)" id="artist_statement">Artist Statement</div><!-- a few navigation buttons-->
+                <div class="blue button" onclick="show_tab(this)" id="demo_reel">Demo Reel</div>
+                <div class="blue button" onclick="show_tab(this)" id="biography">Biography</div>
+                <div class="blue button" onclick="show_tab(this)" id="credits">Credits</div>
+                <div> <img id="loading" src="img/ajax_load.gif" alt="loading" /></div><!-- rotating loading gif-->
+            </div>
             <a href="#main"></a>
             <div class="clear"></div><!-- the above links are floated we have to use the cleardix hack-->
 
@@ -149,8 +149,8 @@
         <div class="clear"></div> 
     </div>
 </div>
-<?php include("footer.php");?>);
+<?php include("footer.php");?>
 
 <input type="hidden" id="tab_id" value="<?php echo($tab_id) ?>"/>
 </body>
-</htm    l
+</hmtl>
