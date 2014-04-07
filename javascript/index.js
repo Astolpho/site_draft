@@ -1,6 +1,11 @@
 $(document).ready(function()
 {
-	$('#demo_reel_div').hide();
+	var tab_id = $('#tab_id').val();
+	if( tab_id )
+	{
+	console.log( tab_id);
+		$('#' + tab_id + '_div').show();
+	}
 });
 
 function show_demo_tab()
@@ -14,28 +19,28 @@ function load_page(element) //the function that loads pages via AJAX
 	$('loading').css('visibility','visible');
 
 
-		$.ajax(
+	$.ajax(
+	{
+		type: "POST",
+		url: "load_page.php",
+		data:'page='+url,
+		dataType: "html",
+		success: function(msg)
 		{
-			type: "POST",
-			url: "load_page.php",
-			data:'page='+url,
-			dataType: "html",
-			success: function(msg)
+			if(parseInt(msg)!=0)
 			{
-				if(parseInt(msg)!=0)
-				{
-					$('#pageContent').html(msg);
-					$('#loading').css('visibility','hidden');
-				}
+				$('#pageContent').html(msg);
+				$('#loading').css('visibility','hidden');
 			}
-		}); 
-		location.reload();
+		}
+	}); 
+	location.reload();
 }
 
 function show_tab(element)
 {
-	console.log(element.id)
 	var url = element.id;
+	location.replace('/site_draft/?tab_id=' + url);
 	$('#artist_statement_div').hide();
 	$('#demo_reel_div').hide();
 	$('#biography_div').hide();

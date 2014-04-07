@@ -16,6 +16,16 @@
 
         <?php header('Access-Control-Allow-Origin: *');?>
 
+     <?php 
+         if( isset( $_REQUEST['tab_id'] ) && is_string( $_REQUEST['tab_id'] ) )
+         {
+             $tab_id = $_REQUEST['tab_id'];
+         }
+         else
+         {
+             $tab_id = false;
+         }
+     ?>
    
     <script type="text/javascript">
     soundManager.setup({
@@ -140,5 +150,7 @@
     </div>
 </div>
 <?php include("footer.php");?>);
+
+<input type="hidden" id="tab_id" value="<?php echo($tab_id) ?>"/>
 </body>
-</html>
+</htm    l
