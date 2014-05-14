@@ -1,25 +1,22 @@
 <footer>
-    <? php header('Access-Control-Allow-Origin: *');?>
     <ul class="footer_links">
         <li class="home_col">
             <p class="home">Home</p>
-            <a class="logo" href="#">Paladin Productions <i>&copy; 2014 </i></a>
+            <a class="logo" href="#"> </i></a>
         </il>
         <li class="services_col">
             <p class="services">Services</p>
             <ul class="services_links">
-                <li><a href="#">Composition</a></li>
-                <li><a href="#">Sound Design</a></li>
-                <li><a href="#">Video Game Audio</a></li>
-                <li><a href="#">Audio Outsourcing </a></li>
+                <li>Composition</li>
+                <li>Sound Design</li>
+                <li>Video Game Audio</li>
+                <li>Audio Outsourcing</li>
             </ul>
         </li>
         <li class="contact_col">
             <p class="contact">Contact</p>
             <ul class="contact_links">
-                <li><a href="#">Email</a></il>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li>Email: eashley415@gmail.com</il>
                 <li>PHONE: (678)-939-4911</li>
             </ul>
         </li>
@@ -27,7 +24,7 @@
             <p class="clients">Clients</p>
 
             <ul class "clients_links">
-                <li><a href="#">FAQ</a></li>
+                <li><a href="https://www.aegisthegame.com">Aegis</a></li>
             </ul>
         </li>
     </ul>

@@ -1,7 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <?php header('Access-Control-Allow-Origin: *');?>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/360player.css" />
     <link rel="stylesheet" type="text/css" href="css/360player-visualization.css" />
@@ -10,13 +9,13 @@
     <script type="text/javascript" src="javascript/berniecode-animator.js"></script>
     <script type="text/javascript" src="javascript/animator.js"></script>
     <script type="text/javascript" src="javascript/index.js"></script>
-    <script type="text/javascript" src="javascript/demo_reel.js"></script>
     <script type="text/javascript" src="javascript/soundmanager2.js"></script>
     <script type="text/javascript" src="javascript/360player.js"></script>
 
         <?php header('Access-Control-Allow-Origin: *');?>
 
      <?php 
+         error_log($_REQUEST['tab_id']);
          if( isset( $_REQUEST['tab_id'] ) && is_string( $_REQUEST['tab_id'] ) )
          {
              $tab_id = $_REQUEST['tab_id'];
@@ -26,6 +25,17 @@
              $tab_id = false;
          }
      ?>
+     <script type="text/javascript">
+     $(document).ready(function()
+      {
+        var tab_id = $('#tab_id').val();
+        console.log( tab_id);
+        if( tab_id )
+        {
+          console.log( tab_id);
+          $('#' + tab_id + '_div').show();
+        }
+      });</script>
    
     <script type="text/javascript">
     soundManager.setup({
@@ -115,13 +125,15 @@
             <h3 class="slogan">Pushing Game Audio Forward</h3>
             </div>
             <div style="display:none" id="artist_statement_div">
-                <span id="artist_statement_text">Insert Text Here</span>
+                <span id="artist_statement_text">I strive to create moments 
+                In video games where the art, story, sound, 
+                and world meld into one, creating something more than the sum of its parts. </span>
             </div>
             <div style="display:none" id="biography_div">
-                <span id="artist_statement_text">Insert Text Here</span>
+                <span id="artist_statement_text">WIP</span>
             </div>
             <div style="display:none" id="credits_div">
-                <span id="artist_statement_text">Insert Text Here</span>
+                <span id="artist_statement_text">WIP</span>
             </div>
             <div style="display:none" id="demo_reel_div">
                 <div id="left">

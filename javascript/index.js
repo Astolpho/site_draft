@@ -1,12 +1,4 @@
-$(document).ready(function()
-{
-	var tab_id = $('#tab_id').val();
-	if( tab_id )
-	{
-	console.log( tab_id);
-		$('#' + tab_id + '_div').show();
-	}
-});
+
 
 function show_demo_tab()
 {
@@ -39,11 +31,7 @@ function load_page(element) //the function that loads pages via AJAX
 
 function show_tab(element)
 {
-	var url = element.id;
-	location.replace('/site_draft/?tab_id=' + url);
-	$('#artist_statement_div').hide();
-	$('#demo_reel_div').hide();
-	$('#biography_div').hide();
-	$('#credits_div').hide();
-	$("#" + element.id + "_div").show();
+	var element_id = element.id;
+	window.location = 'http://www.360degreesound.com/index.php?tab_id=' + element_id;
+	
 }
